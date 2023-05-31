@@ -61,7 +61,7 @@ Developed by: Sangavi Suresh
 RegisterNumber: 212222230130 
 
 UP COUNTER:
-
+```
 module sync(clk,A);
 input clk;
 output reg [0:2]A;
@@ -72,9 +72,9 @@ begin
 	 A[2]=1^A[2];
 end 
 endmodule
-
+```
 DOWN COUNTER:
-
+```
 module exp6a(clk,A);
 input clk;
 output reg [0:2]A;
@@ -85,7 +85,7 @@ begin
 	 A[2]=1^A[2];
 end 
 endmodule 
-
+```
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
 UP COUNTER:
